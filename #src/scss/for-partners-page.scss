@@ -1,0 +1,185 @@
+.for-partners-page.work-page-heading{
+  .work-page-heading__wrapper{
+    padding: 0 0 40px;
+    @media (max-width: $widthmd){
+      padding-bottom: 30px;
+    }
+  }
+}
+.for-partners-page-top{
+    &__wrapper{
+      padding-bottom: 57px;
+      @media (max-width: $widthmd){
+        padding-bottom: 47px;
+      }
+      @media (max-width: $widthtable){
+        padding-bottom: 30px;
+      }
+    }
+  &__text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    @media (max-width:$widthsm){
+      font-size: 14px;
+    }
+  }
+}
+
+.for-partners-page-blanks{
+  &__wrapper{
+    padding: 0 0 20px;
+  }
+  &__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    @media (max-width: $widthtable){
+      flex-wrap: wrap;
+    }
+  }
+  &__form-cover{
+    width: calc(100%/2 - 15px);
+    @media (max-width: $widthmd) {
+      width: calc(100%/2 - 10px);
+    }
+    @media (max-width: $widthtable){
+      width: 100%;
+      &:first-child{
+        margin-bottom: 30px;
+        @media (max-width:$widthsm){
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  &__form{
+    width: 100%;
+    height: initial;
+    padding: 59px 65px 80px;
+    border: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    @media (max-width: $widthmd){
+      padding: 42px 50px 60px;
+      border-radius: 50px;
+    }
+    @media (max-width:$widthsm){
+      padding: 30px 35px 37px;
+      border-radius: 40px;
+    }
+  }
+  &__subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #CCCCCC;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 23px;
+  }
+  &__title{
+    font-size: 36px;
+    line-height: 42px;
+    color: $colDarkGreen;
+    margin-bottom: 16px;
+    @media (max-width: $widthmd){
+      font-size: 30px;
+    }
+    @media (max-width:$widthsm){
+      font-size: 22px;
+    }
+  }
+  &__label{
+    width: 100%;
+    margin-bottom: 28px;
+    @media (max-width:$widthsm){
+      margin-bottom: 20px;
+    }
+  }
+  &__span{
+    display: block;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+    margin-bottom: 16px;
+    font-family: 'Roboto', sans-serif;
+    @media (max-width:$widthsm){
+      font-size: 14px;
+    }
+  }
+  input{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 14px 30px;
+    @media (max-width:$widthsm){
+      font-size: 14px;
+      padding: 12px 30px 12px 20px;
+    }
+    &:focus-within{
+      border-color:  #000000;
+    }
+  }
+  &__cover-input{
+    position: relative;
+    display: block;
+    width: 100%;
+    &.for-partners-page-blanks-error-input{
+      .for-partners-page-blanks__cover-svg{
+        opacity: 1;
+      }
+      input{
+        border-color: $colError;
+      }
+    }
+  }
+  &__cover-svg{
+    position: absolute;
+    left: auto;
+    right: 15px;
+    top: 14px;
+    opacity: 0;
+    transition: all .3s;
+    @media (max-width:$widthsm){
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  &__btn{
+    min-width: 242px;
+    padding: 20px 20px 20px;
+    transition: all .3s;
+    border-radius: 50px;
+    background-color: $colDarkGreen;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #FFFFFF;
+    margin-top: 22px;
+    @media (max-width:$widthsm){
+      width: 100%;
+      font-size: 16px;
+      min-width: 200px;
+    }
+    &:hover{
+      background-color: $colDarkGreenHoverDiz;
+    }
+  }
+}

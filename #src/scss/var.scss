@@ -1,0 +1,33 @@
+.container{
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+  @media (max-width: 360px){
+    padding: 0 10px;
+  }
+}
+.text-align-center{
+text-align: center;
+}
+.text-align-center-sm{
+  @media (max-width:650px){
+    text-align: center;
+  }
+}
+$widthxl: 1600px;
+$widthlg: 1200px;
+$widthmd:991px;
+$widthtable:768px;
+$widthsm:650px;
+$widthm:414px;
+$widtmob:360px;
+
+$colGreen:#4eae4a;
+$colDarkGreen:#024638;
+$colDarkGreenDiz:#136857;
+$colDarkGreenDiz2:#03392E;
+$colDarkGreenHover:#036350;
+$colDarkGreenHoverDiz:#0D6351;
+$colDarkGreenHoverLighter:#047c64;
+$colError:#DB4444;

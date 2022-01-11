@@ -1,0 +1,155 @@
+@mixin font-face($font-family, $url, $weight) {
+  @font-face {
+    font-family: "#{$font-family}";
+    src: url("../fonts/#{$url}.woff") format("woff"),
+    url("../fonts/#{$url}.woff2") format("woff2");
+    font-weight: #{$weight};
+    font-display: swap;
+    font-style: normal;
+  }
+}
+
+@import "reset.scss";
+@import "fonts";
+@import "var";
+
+
+:root {
+  --grayd3-color: #D3D3D3;
+  --grayac-color: #ACACAC;;
+  --graybe-color: #BEBEBE;
+  --pink-color: #EC25A3;
+}
+
+$colorblack: #151515;
+$colorpinkeec25: #EC25A3;
+$colorlightdrayd3: #d3d3d3;
+$colorlightdrayac: #acacac;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  //transition: all 1s ;
+  overflow-x: hidden;
+
+  &.hidden {
+    overflow: hidden;
+  }
+
+}
+
+.content {
+  transition: all 1s;
+
+  &.margin {
+    transform: translateX(320px);
+    @media (max-width: 360px) {
+      transform: translateX(260px);
+
+    }
+  }
+}
+
+.breadcrumb {
+  &__ul {
+    padding: 50px 0 23px;
+    display: flex;
+    @media (max-width:$widthsm){
+      padding: 20px 0 23px;
+    }
+  }
+
+  li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #024638;
+    @media (max-width:$widthsm){
+      font-size: 11px;
+    }
+  }
+
+  a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #CCCCCC;
+    transition: all .4s;
+    @media (max-width:$widthsm){
+      font-size: 11px;
+    }
+    &:hover {
+      color: #000000;
+    }
+  }
+}
+
+//font-family: 'Josefin Sans', sans-serif;
+//
+//font-family: 'Roboto', sans-serif;
+
+//transition: all .3s;
+//&:hover{
+//  color: $colDarkGreen;
+//  background-color: white;
+//}
+
+//buttons
+//@media (max-width: $widthsm){
+//  width: 100%;
+//  padding: 23px 23px;
+//  line-height: 100%;
+//  font-size: 16px;
+//}
+input{
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  border-radius: 50px;
+  padding: 14px 25px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+
+  @media (max-width: $widthmd){
+    padding: 12px 24px;
+  }
+  @media (max-width:$widthsm){
+    padding: 7px 18px;
+    border-radius: 25px;
+    font-size: 14px;
+  }
+}
+
+@import "header";
+@import "hamburger";
+@import "main-page";
+@import "footer";
+@import "how-does-it-work-page";
+@import "juicy-box-page";
+@import "harvest-page";
+@import "for-partners-page";
+@import "blog-page";
+@import "private-office";
+@import "private-office-profile";
+@import "private-office-footer";
+@import "private-office-security";
+@import "private-office-history";
+@import "private-office-order-history";
+
+

@@ -337,6 +337,10 @@
       padding: 5px 10px;
       cursor: pointer;
       list-style-type: none;
+      a{
+        font-size: 14px;
+        color: #424348;
+      }
     }
 
     .select__list .select__item:hover {

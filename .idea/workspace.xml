@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f78d95-a9ba-46b9-a6c5-65b4588b5b0a" name="Default Changelist" comment="" />
+    <list default="true" id="50f78d95-a9ba-46b9-a6c5-65b4588b5b0a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/#src/private-office-grower-statement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/_header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/blog-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/sweetfield/blog-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/for-partner-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/sweetfield/for-partner-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/harvest-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/sweetfield/harvest-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/how-does-it-work.html" beforeDir="false" afterPath="$PROJECT_DIR$/sweetfield/how-does-it-work.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sweetfield/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/jucy-box-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/sweetfield/jucy-box-page.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +86,7 @@
       <workItem from="1641054492413" duration="3897000" />
       <workItem from="1641202205456" duration="25363000" />
       <workItem from="1641720557277" duration="19177000" />
-      <workItem from="1641899862742" duration="631000" />
+      <workItem from="1641899862742" duration="3599000" />
     </task>
     <servers />
   </component>

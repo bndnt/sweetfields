@@ -616,6 +616,11 @@ input {
   list-style-type: none;
 }
 
+.header__soc .select__list .select__item a {
+  font-size: 14px;
+  color: #424348;
+}
+
 .header__soc .select__list .select__item:hover {
   background-color: rgba(224, 229, 231, 0.5);
 }

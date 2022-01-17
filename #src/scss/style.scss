@@ -136,6 +136,65 @@ input{
   }
 }
 
+/* для элемента input c type="checkbox" */
+.custom-checkbox {
+  display: flex;
+  cursor: pointer;
+}
+.custom-checkbox>input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+/* для элемента label, связанного с .custom-checkbox */
+.custom-checkbox>span {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+/* создание в label псевдоэлемента before со следующими стилями */
+.custom-checkbox>span::before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 5px;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+/* стили при наведении курсора на checkbox */
+.custom-checkbox>input:not(:disabled):not(:checked)+span:hover::before {
+  border-color: $colDarkGreen;
+}
+
+/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+.custom-checkbox>input:focus:not(:checked)+span::before {
+  border-color: $colDarkGreen;
+}
+
+/* стили для чекбокса, находящегося в состоянии checked */
+.custom-checkbox>input:checked+span::before {
+  border-color: $colDarkGreen;
+  background-color: $colDarkGreen;
+  background-image: url("../img/checkbox.svg");
+  background-size: contain;
+}
+
+/* стили для чекбокса, находящегося в состоянии disabled */
+.custom-checkbox>input:disabled+span::before {
+  background-color: #e9ecef;
+}
+
 @import "header";
 @import "hamburger";
 @import "main-page";
@@ -154,5 +213,10 @@ input{
 @import "private-office-grower-statement";
 @import "private-office-support";
 @import "private-office-create-ticket";
+@import "clone-shop";
+@import "private-office-payments";
+@import "private-office-calendar";
+@import "private-office-greenhouse";
+@import "private-office-warehouse";
 
 

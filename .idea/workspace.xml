@@ -1,15 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="50f78d95-a9ba-46b9-a6c5-65b4588b5b0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#src/private-office-create-ticket.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/private-office-support.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/scss/private-office-create-ticket.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/scss/private-office-support.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/_lk-menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/_private-office-footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/_private-office-top-bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/private-office-calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/private-office-clone-shop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/private-office-greenhouse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/private-office-payments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/private-office-warehouse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/scss/clone-shop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/scss/private-office-calendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/scss/private-office-greenhouse.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/scss/private-office-payments.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/scss/private-office-warehouse.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/img/Wallet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/#src/img/Wallet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/privat-office-settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/privat-office-settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/private-office-create-ticket.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/private-office-create-ticket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/private-office-grower-statement.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/private-office-grower-statement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/private-office-history.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/private-office-history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/private-office-order-history.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/private-office-order-history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/private-office-security.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/private-office-security.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/private-office-support.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/private-office-support.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/private-office.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/private-office.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/var.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/var.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sweetfield/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sweetfield/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sweetfield/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/sweetfield/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/blog-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/for-partner-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/hamburger.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/harvest-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/how-does-it-work.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Arrow_drop_down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Arrow_drop_down2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Bag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Blog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Date_range_fill.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Facebook - Negative.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Facebooksvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Filter_alt_fill.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/For Partners.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Harvest and Payments.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/How does it works.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Instagram - Negative.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Message.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Message_light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Phone_fill.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Pin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Pin_fill.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Pressure.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Setting.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Shop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Vectorforselects.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/VectorforselectsBlack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/Wallet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/YouTube - Negative.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/YouTube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/app-store.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/arrov-prev.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/arrow-next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/bbworld-getIt-badge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/blog-page-news2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/blog-page-news3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/blog-page-news4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/blog-page-news5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/cannabis.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/faq.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/footer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/google-play-store.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/harvest-page-top2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/harvest-payment-page-slider1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/harvest-payment-page-slider2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/harvest-payment-page-slider3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/icon-half-block.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/icon-half-block2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/icon-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/info_light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/juicy-box-page-video.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/lang1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/lang1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/lang2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/lang2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/lang3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/lang3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/lang4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/lang4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/lang5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/lang5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/lang6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/lang6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/languages.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/logout.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/main-page-crypto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/main-page-future1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/main-page-future2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/main-page-latest-news.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/main-page-partners1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/main-page-partners2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/main-page-partners3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/main-page-partners4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/mp-top-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/notification.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/order.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/play.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/private-office-order-history.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/private-office-order-history2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/revolutionary-crown.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/security.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/select.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/statement.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/white-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/windows-app-story.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/work-page-info-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/work-page-info-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/work-page-product.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/img/work-pagetop-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/js/script.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/jucy-box-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/privat-office-settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/privat-ofice-settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/private-office-create-ticket.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/private-office-grower-statement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/private-office-history.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/private-office-order-history.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/private-office-security.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetfield/private-office-support.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +230,16 @@
       <workItem from="1641202205456" duration="25363000" />
       <workItem from="1641720557277" duration="19177000" />
       <workItem from="1641899862742" duration="11071000" />
+      <workItem from="1642004437097" duration="77000" />
+      <workItem from="1642004522318" duration="24073000" />
+      <workItem from="1642089327229" duration="21073000" />
+      <workItem from="1642163688281" duration="925000" />
+      <workItem from="1642191857302" duration="10637000" />
+      <workItem from="1642247167528" duration="1404000" />
+      <workItem from="1642257908450" duration="7266000" />
+      <workItem from="1642289506217" duration="6654000" />
+      <workItem from="1642398328662" duration="827000" />
+      <workItem from="1642421506583" duration="747000" />
     </task>
     <servers />
   </component>
@@ -101,5 +256,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1642203818389">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050/1920.0.1680.1020@0.30.1920.1050" timestamp="1642203818389" />
   </component>
 </project>

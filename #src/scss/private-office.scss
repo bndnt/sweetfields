@@ -294,6 +294,9 @@
       }
       a {
         border: none;
+        &.js-active {
+          border: 1px solid #fff;
+        }
       }
       a span {
         color: #FFFFFF !important;
@@ -327,6 +330,7 @@
 }
 
 .private-office-top-bar {
+  width: 100%;
   &__wrapper{
     padding: 25px 0 35px;
   }
@@ -334,6 +338,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    @media (max-width: $widthlg) {
+      justify-content: flex-start;
+    }
   }
 
   &__burger {
@@ -344,6 +352,7 @@
     @media (max-width: $widthlg) {
       opacity: 1;
       margin-left: 20px;
+      margin-right: 20px;
     }
     &.active {
     a {
@@ -390,8 +399,7 @@
     display: flex;
     justify-content: space-between;
     @media (max-width: $widthlg){
-      width: calc(100vw - 100px);
-      margin-left: 40px;
+      width: calc(100vw - 146px);
       //margin-right: 40px;
     }
   }
@@ -413,9 +421,8 @@
       }
     }
     &:last-child {
-      display: none;
       @media (max-width: $widthlg) {
-        display: block;
+        display: flex;
         width: 100px;
       }
     }
@@ -424,11 +431,12 @@
     }
     @media (max-width: $widthlg){
       margin-right: 20px;
+      width: initial;
       &:last-child{
 
         @media (max-width: $widthlg) {
-
-          width: 100px;
+          margin-right: 20px;
+          width: initial;
         }
       }
     }
@@ -492,7 +500,7 @@
     transition: all .3s;
     cursor: pointer;
     @media (max-width: $widthlg) {
-      display: none;
+      margin-right: 15px;
     }
     &:hover{
       background: #0C5848;

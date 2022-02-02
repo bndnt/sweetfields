@@ -1,0 +1,134 @@
+.tickets-page {
+  @media (max-width: $widthxl) {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  @media (max-width: $widthsm) {
+    justify-content: flex-start;
+  }
+  &__content {
+    width: 100%;
+    margin-right: 30px;
+    @media (max-width: $widthxl) {
+      order:3;
+      margin-right: 0;
+      margin-top: 30px;
+    }
+    @media (max-width: $widthsm) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  &__left {
+    width: initial;
+    margin-right: 30px;
+    @media (max-width: $widthxl) {
+      order:1;
+    }
+    @media (max-width: $widthsm) {
+      margin-right: 0;
+    }
+
+  }
+  &__right {
+    min-width: 350px;
+    @media (max-width: $widthxl) {
+      order:2;
+      min-width: initial;
+    }
+  }
+}
+
+.tickets-page-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  margin-bottom: 15px;
+  background: #024638;
+  @media (max-width: $widthm) {
+    padding: 10px;
+    justify-content: space-between;
+    width: calc(100vw - 60px);
+  }
+  &__left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 5px;
+    @media (max-width: $widthm) {
+      width: initial;
+    }
+  }
+  &__title {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s linear;
+    &:hover {
+      color: #e3d01d;
+    }
+    @media (max-width: $widthsm) {
+      font-size: 16px;
+    }
+  }
+  &__date {
+    margin-top: 5px;
+    color: #CCCCCC;
+    font-size: 14px;
+    @media (max-width: $widthsm) {
+      font-size: 12px;
+    }
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  &__status {
+    display: inline-block;
+    vertical-align: middle;
+    background: #fff;
+    color: #024638;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    @media (max-width: $widthsm) {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+  }
+  &__delete {
+    background: #f3f3f3;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 50%;
+    transition: .3s linear;
+    svg {
+      width: 24px;
+      height: 24px;
+      fill: #024638;
+      transition: .3s linear;
+    }
+    &:hover {
+      background: #0d6351;
+      svg {
+        fill: #fff;
+      }
+    }
+    @media (max-width: $widthsm) {
+      padding: 5px;
+      svg {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+}

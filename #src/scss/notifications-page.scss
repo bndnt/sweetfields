@@ -1,0 +1,70 @@
+.notifications-page {
+
+  &__wrapper {
+
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  &__date {
+    padding: 10px 0;
+    border-bottom: 1px solid #cccccc;
+    font-weight: bold;
+    font-size: 18px;
+    @media (max-width: $widthsm) {
+      font-size: 16px;
+    }
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0;
+    svg {
+      width: 36px;
+      transition: .3s linear;
+      height: 36px;
+      stroke: #CCCCCC;
+    }
+    span {
+      margin-left: 20px;
+      font-size: 18px;
+      color: #024638;
+      transition: .3s linear;
+      position: relative;
+      &:before {
+        content: '';
+        background: #024638;
+        height: 1px;
+        width: 0;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        transition: .3s linear;
+        right: 0;
+      }
+    }
+    @media (max-width: $widthsm) {
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+      span {
+        font-size: 16px;
+        margin-left: 10px;
+      }
+    }
+    &:hover {
+      svg {
+        stroke: #024638;
+      }
+      span {
+        &:before {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50f78d95-a9ba-46b9-a6c5-65b4588b5b0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#src/plants-purchase.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/private-office-tickets.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/scss/plants-purchase.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#src/scss/tickets-page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/notification-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/scss/notifications-page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/scss/support-chat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/support-chat.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sweetfields/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sweetfields/css/style.css" afterDir="false" />
@@ -115,6 +115,7 @@
       <workItem from="1642421506583" duration="1700000" />
       <workItem from="1643714152511" duration="6881000" />
       <workItem from="1643724562132" duration="6270000" />
+      <workItem from="1643786303136" duration="10931000" />
     </task>
     <servers />
   </component>

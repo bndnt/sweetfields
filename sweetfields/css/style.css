@@ -9487,3 +9487,50 @@ input {
     font-size: 28px;
   }
 }
+
+@media (min-width: 1201px) {
+	.private-office__flex {
+		display: block;
+	}
+
+	.private-office__nav {
+		position: absolute;
+		top: 108px;
+		left: 0;
+		width: 100vw;
+		margin: 0;
+		z-index: 3;
+	}
+
+	.private-office__menu-col {
+		position: absolute;
+	}
+
+	.private-office-top-bar__wrapper {
+		padding-left: 270px;
+		padding-bottom: 100px;
+	}
+
+	.private-office__nav.bottom-navbar {
+		display: block;
+		padding: 20px 30px 10px;
+	}
+
+	.private-office__ul {
+		display: flex;
+		justify-content: center;
+	}
+
+	.private-office__nav li {
+		margin: 0;
+	}
+
+	.private-office__nav li + li {
+		margin-left: 30px;
+	}
+
+	.private-office-content {
+		border-radius: 50px;
+		margin: 0 35px;
+	}
+}

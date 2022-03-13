@@ -9534,3 +9534,101 @@ input {
 		margin: 0 35px;
 	}
 }
+
+.po-calendar__outer {
+	padding-top: 25px;
+}
+
+.po-calendar__inner {
+	margin: 0 -5px;
+}
+
+.po-calendar__months {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.po-calendar__month-wrp {
+	width: 33.333333333333336%;
+	padding: 5px;
+}
+
+.po-calendar__month {
+	background: #e6f1ef;
+	border-radius: 8px;
+	padding: 5px 5px 6px;
+}
+
+.po-calendar__month-title {
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	padding: 10px 0 5px;
+}
+
+.po-calendar__event-link {
+	position: relative;
+	display: block;
+	color: unset;
+	background: #fff;
+	border-radius: 5px;
+	padding: 25px 40px 25px 65px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+.po-calendar__event-link:hover {
+	box-shadow: 0 0 0px 2px #b1e6dd;
+}
+
+.po-calendar__event+.po-calendar__event {
+	padding-top: 5px;
+}
+
+.po-calendar__event-date {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	background: #147c6a;
+	padding: 10px 10px 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.po-calendar__event-image {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+}
+
+.po-calendar__event-week {
+	font-size: 12px;
+}
+
+.po-calendar__event-day {
+	font-size: 18px;
+}
+
+.po-calendar__event-title {
+	word-wrap: break-word;
+}
+
+.po-calendar__event-image img {
+	width: 24px;
+	height: 24px;
+}
+
+@media(max-width: 1030px) {
+	.po-calendar__month-wrp {
+			width: 50%;
+	}
+}
+
+@media(max-width: 768px) {
+	.po-calendar__month-wrp {
+			width: 100%;
+	}
+}
